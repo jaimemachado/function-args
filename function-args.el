@@ -73,7 +73,7 @@
   "Max hint size that can be displayed on one line."
   :type 'integer)
 
-(defcustom moo-select-method 'ivy
+(defcustom moo-select-method 'helm
   "Method to select a candidate from a list of strings."
   :type '(choice
           (const :tag "Ivy" ivy)
